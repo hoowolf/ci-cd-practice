@@ -7,8 +7,8 @@ on:
 # 这是⼀个重要的设置：定义 GITHUB_TOKEN 的权限
 # 我们需要写⼊ Packages 的权限来推送镜像
 permissions:
-  contents:read
-  pakeages:write
+  contents: read
+  packages: write
 
 jobs:
   # 第一步：测试代码
